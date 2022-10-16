@@ -17,6 +17,7 @@ MonoBehaviour:
   - {fileID: 6516160604520245170, guid: fc4767f47d4d60b44b2ea61c0827b961, type: 3}
   - {fileID: 8105291654350440355, guid: 08a6f560c1f6f32489506483d5fa7a5a, type: 3}
   - {fileID: 1768686348761891691, guid: 05529f503bba9f944bf8a934649a33f7, type: 3}
+  - {fileID: 1844700368645783, guid: 0809a00b3519f1745aa043b5ac2f2c8d, type: 3}
   masterPrefabs:
   - {fileID: 1175919788895150, guid: d97f71d977f90044e9c139cb2a51727b, type: 3}
   projectilePrefabs: []
@@ -81,7 +82,11 @@ MonoBehaviour:
   buffDefs: []
   eliteDefs: []
   unlockableDefs: []
-  survivorDefs: []
+  survivorDefs:
+  - {fileID: 11400000, guid: 110f6c3a01c030c49a3c7350ef8dc400, type: 2}
+  - {fileID: 11400000, guid: 6de92cbb71b5851498d18a123e6b8b69, type: 2}
+  - {fileID: 11400000, guid: 0c6bcc8882f8cea48a630ecd8b4e5121, type: 2}
+  - {fileID: 11400000, guid: b7e060e7de755b243a2afda19d3ff35c, type: 2}
   artifactDefs: []
   surfaceDefs:
   - {fileID: 11400000, guid: 9ba93ab1debda6845baf9877b0fbf10d, type: 2}

@@ -1,0 +1,25 @@
+{
+	"strings" {
+		"SS2_NEMBANDIT_NAME": "Nemesis Bandit",
+		"SS2_NEMBANDIT_SUBTITLE": "Blackened Outlaw",
+		"SS2_NEMBANDIT_DESCRIPTION": "The Nemesis Bandit doesn't care for pleas, for he brings misery in those who dare step in his way.\n\n<color=#CCD3E0>< ! > idk lol",
+		"SS2_NEMBANDIT_OUTRO": "..and so he left, with absolutely no regrets.",
+		"SS2_NEMBANDIT_FAILURE": "..and so he vanished, a plea bargain for his crimes.",
+		"SS2_NEMBANDIT_LORE": "yippee kie-yay motherfucker",
+		
+		"SS2_NEMBANDIT_PRIMARY_NAME": "Gunslinger",
+		"SS2_NEMBANDIT_PRIMARY_DESC": "Shoot for (mid)%. Holds enough shots to kill anything that moves.",
+		
+		"SS2_NEMBANDIT_SECONDARY_NAME": "Dynamite Toss",
+		"SS2_NEMBANDIT_SECONDARY_DESC": "Toss a bundle of dynamite for damage. TO-DO: Copy Moffein description.",
+		
+		"SS2_NEMBANDIT_SECONDARY_COIN_NAME": "Coin Toss",
+		"SS2_NEMBANDIT_SECONDARY_COIN_DESC": "Toss a coin in the air, and shoot it to direct it into the nearest enemy for (high)%. Works like you expect it to.",
+		
+		"SS2_NEMBANDIT_UTILITY_NAME": "Lasso",
+		"SS2_NEMBANDIT_UTILITY_DESC": "Throw a lasso at an enemy, stunning if it connects. Recast to pull the enemy in.",
+		
+		"SS2_NEMBANDIT_SPECIAL_NAME": "Splatter",
+		"SS2_NEMBANDIT_SPECIAL_DESC": "Shoot your shotgun for (insane)%. Kills reset cooldowns.",
+	}
+}
