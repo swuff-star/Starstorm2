@@ -82,11 +82,7 @@ MonoBehaviour:
   buffDefs: []
   eliteDefs: []
   unlockableDefs: []
-  survivorDefs:
-  - {fileID: 11400000, guid: 110f6c3a01c030c49a3c7350ef8dc400, type: 2}
-  - {fileID: 11400000, guid: 6de92cbb71b5851498d18a123e6b8b69, type: 2}
-  - {fileID: 11400000, guid: 0c6bcc8882f8cea48a630ecd8b4e5121, type: 2}
-  - {fileID: 11400000, guid: b7e060e7de755b243a2afda19d3ff35c, type: 2}
+  survivorDefs: []
   artifactDefs: []
   surfaceDefs:
   - {fileID: 11400000, guid: 9ba93ab1debda6845baf9877b0fbf10d, type: 2}

@@ -102,7 +102,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4346169381568625}
   m_Layer: 0
-  m_Name: Bandit2Display
+  m_Name: NemBanditDisplay
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1762,7 +1762,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c713c2fd462d004409e7437643f216e4, type: 2}
+  - {fileID: 2100000, guid: b982c65cea0054a42976f7b9754229f3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

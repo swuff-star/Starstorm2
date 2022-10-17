@@ -180,6 +180,8 @@ namespace Moonstorm.Starstorm2
 
             public static SurvivorDef SurvivorNemmando;
 
+            public static SurvivorDef survNemBandit;
+
             //public static SurvivorDef SurvivorPyro;
         }
 
