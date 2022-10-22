@@ -1,0 +1,25 @@
+{
+    "strings":
+    {
+        "SS2_NEMESIS_HUNTRESS_NAME": "Nemesis Huntress",
+		"SS2_NEMESIS_HUNTRESS_SUBTITLE": "Cunning Stalker",
+		"SS2_NEMESIS_HUNTRESS_DESCRIPTION": "The Nemesis Huntress engages against enemies slowly but ruthlessly with ther deadly longbow and double headed hatchet.\n\n<color=#CCD3E0>< ! > All skill.",
+		"SS2_NEMESIS_HUNTRESS_FLAVOR": "..and so she left, finding a new home far away.",
+		"SS2_NEMESIS_HUNTRESS_FAILURE": "..and so she returned, ending her search.",
+
+		"SS2_NEMESIS_HUNTRESS_PRIMARY_BOW_NAME": "Heavy Bolt",
+		"SS2_NEMESIS_HUNTRESS_PRIMARY_BOW_DESC": "Hold to charge an arrow for up to <style=cIsDamage>320%</style> damage. Capable of striking <style=cIsDamage>Weak Points</style>.",
+		
+		"SS2_NEMESIS_HUNTRESS_PRIMARY_ALT_NAME": "Packed Bolt",
+		"SS2_NEMESIS_HUNTRESS_PRIMARY_ALT_DESC": "Hold to charge up to <style=cIsDamage>7</style> arrows for </style>c=Isdamage>50%</style> damage each.",
+		
+		"SS2_NEMESIS_HUNTRESS_SECONDARY_NAME": "Laser Hatchet",
+		"SS2_NEMESIS_HUNTRESS_SECONDARY_DESC": "Throw a boomeranging hatchet that pierces enemies for <style=cIsDamage>480%</style> damage.",
+		
+		"SS2_NEMESIS_HUNTRESS_UTILITY_NAME": "Blink",
+		"SS2_NEMESIS_HUNTRESS_UTILITY_DESC": "<style=cIsUtility>Disappear</style> and <style=cIsUtility>teleport</style> foreward.",
+		
+		"SS2_NEMESIS_HUNTRESS_SPECIAL_NAME": "Explosive Bolt",
+		"SS2_NEMESIS_HUNTRESS_SPECIAL_DESC": "Fire an explosive bolt for ???",
+    }
+}
