@@ -97,3 +97,13 @@ MonoBehaviour:
     material: {fileID: 2100000, guid: f65b11179d5edd14096ccbb2c47c689c, type: 2}
   - materialAddress: RoR2/Base/Common/VFX/matTracerBrightTransparent.mat
     material: {fileID: 2100000, guid: bf18cb41eec3b604790b3e76c033621b, type: 2}
+  - materialAddress: RoR2/Base/Common/VFX/matOmniHitspark1.mat
+    material: {fileID: 2100000, guid: fb4719d1cfb5ff744abf9d17a4165a79, type: 2}
+  - materialAddress: RoR2/Base/Common/VFX/matOmniHitspark3.mat
+    material: {fileID: 2100000, guid: 4a4c838a50c722542a0ebc63addc6552, type: 2}
+  - materialAddress: RoR2/Base/Common/VFX/matOmniRing2.mat
+    material: {fileID: 2100000, guid: f50979e343fc3434fa76e767837fadc8, type: 2}
+  - materialAddress: RoR2/Base/Common/VFX/matOpaqueDustSpeckledLarge.mat
+    material: {fileID: 2100000, guid: e70d9b2b304f05e4cbec520b60d5f92e, type: 2}
+  - materialAddress: RoR2/Base/Huntress/matHuntressArrowBig.mat
+    material: {fileID: 2100000, guid: 54d4d96c6fead2a40b8ab6af09d7a9f3, type: 2}

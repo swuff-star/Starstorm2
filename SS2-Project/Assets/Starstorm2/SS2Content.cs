@@ -97,6 +97,8 @@ namespace Moonstorm.Starstorm2
         {
             //public static EquipmentDef AffixVoid;
 
+            public static EquipmentDef DivineRight;
+
             public static EquipmentDef BackThruster;
 
             public static EquipmentDef CloakingHeadband;
@@ -113,6 +115,8 @@ namespace Moonstorm.Starstorm2
             public static BuffDef BuffAffixVoid;
 
             public static BuffDef BuffBackThruster;
+
+            public static BuffDef BuffBulwark;
 
             public static BuffDef BuffChirrAlly;
 

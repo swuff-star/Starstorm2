@@ -1,0 +1,102 @@
+﻿using R2API;
+using RoR2;
+using RoR2.Items;
+using UnityEngine;
+using UnityEngine.AddressableAssets;
+
+namespace Moonstorm.Starstorm2.Items
+{
+    //[DisabledContent]
+    public sealed class ErraticGadget : ItemBase
+    {
+        private const string token = "SS2_ITEM_ERRATICGADGET_DESC";
+        public override ItemDef ItemDef { get; } = SS2Assets.LoadAsset<ItemDef>("ErraticGadget");
+
+        [ConfigurableField(ConfigDesc = "Base crit chance granted by the first stack of Erratic Gadget.")]
+        [TokenModifier(token, StatTypes.Default, 0)]
+        public static float extraCrit = 10f;
+
+        [ConfigurableField(ConfigDesc = "Extra damage that crits deal per stack of Erratic Gadget. (1 = 100%)")]
+        [TokenModifier(token, StatTypes.Percentage, 1)]
+        public static float extraDamage = 0.5f;
+
+        
+
+        /*
+         * Update: i've fixed this with this new epic interface i made based off the broken one kevin made. cool!
+         */
+
+        // R2API Moment
+        public sealed class Behavior : BaseItemBodyBehavior
+        {
+            [ItemDefAssociation(useOnClient = false, useOnServer = true)]
+
+            private static ItemDef GetItemDef() => SS2Content.Items.ErraticGadget;
+
+            
+
+            private void OnDisable()
+            {
+                attachmentActive = false;
+            }
+
+            private void FixedUpdate()
+            {
+                attachmentActive = body.healthComponent.alive;
+            }
+
+            private bool attachmentActive
+            {
+                get
+                {
+                    return attachment != null;
+                }
+                set
+                {
+                    if (value == attachmentActive)
+                    {
+                        return;
+                    }
+                    if (value)
+                    {
+                        attachment = Instantiate(SS2Assets.LoadAsset<GameObject>("ErraticGadgetItemBodyAttachment")).GetComponent<NetworkedBodyAttachment>();
+                        attachment.AttachToGameObjectAndSpawn(body.gameObject, null);
+                        return;
+                    }
+                    Destroy(attachmentGameObject);
+                    attachmentGameObject = null;
+                    attachment = null;
+                }
+            }
+
+            private NetworkedBodyAttachment attachment;
+
+            private GameObject attachmentGameObject;
+
+            //private GameObject erraticGadgetPrefab;
+
+            /*public void ModifyStatArguments(RecalculateStatsAPI.StatHookEventArgs args)
+            {
+                args.critAdd += 10f;
+            }
+
+
+            public void OnIncomingDamageOther(HealthComponent victimHealthComponent, DamageInfo damageInfo)
+            {
+                if (damageInfo.crit)
+                {
+                    if (erraticGadgetPrefab)
+                    {
+                        EffectData effectData = new EffectData
+                        {
+                            origin = victimHealthComponent.transform.position,
+                            start = body.corePosition,
+                        };
+                        EffectManager.SpawnEffect(erraticGadgetPrefab, effectData, true);
+                    }
+                    damageInfo.damage += (damageInfo.damage * 0.5f) * stack;
+                }
+            }*/
+        }
+    }
+}
