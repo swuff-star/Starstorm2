@@ -76,7 +76,7 @@ namespace EntityStates.NemHuntress
 
                 if (isAuthority)
                 {
-                    float damage = damageCoefficient * damageStat;
+                    float damage = maxDamageCoefficient * damageStat;
                     AddRecoil(-2f * recoil, -3f * recoil, -1f * recoil, 1f * recoil);
                     characterBody.AddSpreadBloom(0.33f * recoil);
                     Ray aimRay = GetAimRay();

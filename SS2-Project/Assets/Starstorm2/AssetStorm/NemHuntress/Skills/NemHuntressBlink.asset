@@ -16,7 +16,7 @@ MonoBehaviour:
   skillNameToken: SS2_NEMESIS_HUNTRESS_UTILITY_NAME
   skillDescriptionToken: SS2_NEMESIS_HUNTRESS_UTILITY_DESC
   keywordTokens: []
-  icon: {fileID: 21300000, guid: 8862bfbbf8b987343835926b60313cdb, type: 3}
+  icon: {fileID: 21300000, guid: 4b9c9e5f3f617864788b66259c6a3ac5, type: 3}
   activationStateMachineName: Body
   activationState:
     _typeName: EntityStates.Huntress.BlinkState, RoR2, Version=0.0.0.0, Culture=neutral,

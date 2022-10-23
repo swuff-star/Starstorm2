@@ -2530,9 +2530,9 @@ MonoBehaviour:
   utility: {fileID: 8034472969264268104}
   special: {fileID: 6971369962044862660}
   passiveSkill:
-    enabled: 0
-    skillNameToken: 
-    skillDescriptionToken: 
+    enabled: 1
+    skillNameToken: SS2_NEMESIS_HUNTRESS_PASSIVE_NAME
+    skillDescriptionToken: SS2_NEMESIS_HUNTRESS_PASSIVE_DESC
     keywordToken: 
     icon: {fileID: 0}
   primaryBonusStockOverrideSkill: {fileID: 0}
@@ -2675,12 +2675,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3542412704943198110}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 1297580292, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customName: Gun
+  customName: Quiver
   initialStateType:
     _typeName: EntityStates.Idle, Assembly-CSharp
   mainStateType:

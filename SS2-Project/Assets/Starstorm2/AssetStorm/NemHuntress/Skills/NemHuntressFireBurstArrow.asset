@@ -10,22 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1348642413, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
-  m_Name: NemHuntressFireExplosiveArrow
+  m_Name: NemHuntressFireBurstArrow
   m_EditorClassIdentifier: 
-  skillName: NemHuntressFireArrow
-  skillNameToken: SS2_NEMESIS_HUNTRESS_PRIMARY_BOW_NAME
-  skillDescriptionToken: SS2_NEMESIS_HUNTRESS_PRIMARY_BOW_DESC
-  keywordTokens:
-  - SS2_KEYWORD_GOUGE
-  - KEYWORD_AGILE
-  icon: {fileID: 21300000, guid: 9cbf36692526a4e4b88e968f669d34b1, type: 3}
+  skillName: NemHuntressFireBurstArrow
+  skillNameToken: SS2_NEMESIS_HUNTRESS_PRIMARY_ALT_NAME
+  skillDescriptionToken: SS2_NEMESIS_HUNTRESS_PRIMARY_ALT_DESC
+  keywordTokens: []
+  icon: {fileID: 21300000, guid: b60d3e1e6e90fb849b9c75235aeae713, type: 3}
   activationStateMachineName: Weapon
   activationState:
-    _typeName: EntityStates.NemHuntress.ChargeExplosiveArrow, Starstorm2, Version=1.0.0.0,
+    _typeName: EntityStates.NemHuntress.ChargeBurstArrow, Starstorm2, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
   interruptPriority: 0
   baseRechargeInterval: 0
-  baseMaxStock: 1
+  baseMaxStock: 7
   rechargeStock: 1
   requiredStock: 0
   stockToConsume: 0
