@@ -68,7 +68,7 @@ MonoBehaviour:
         objectValue: {fileID: 0}
     - fieldName: dmgCoefficient
       fieldValue:
-        stringValue: 4.8
+        stringValue: 3.6
         objectValue: {fileID: 0}
     - fieldName: recoilAmount
       fieldValue:

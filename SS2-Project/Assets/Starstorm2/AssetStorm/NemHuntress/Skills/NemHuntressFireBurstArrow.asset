@@ -21,7 +21,7 @@ MonoBehaviour:
   activationState:
     _typeName: EntityStates.NemHuntress.ChargeBurstArrow, Starstorm2, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  interruptPriority: 0
+  interruptPriority: 1
   baseRechargeInterval: 0
   baseMaxStock: 7
   rechargeStock: 1
@@ -31,9 +31,9 @@ MonoBehaviour:
   fullRestockOnAssign: 0
   dontAllowPastMaxStocks: 0
   beginSkillCooldownOnSkillEnd: 0
-  cancelSprintingOnActivation: 0
+  cancelSprintingOnActivation: 1
   forceSprintDuringState: 0
-  canceledFromSprinting: 0
+  canceledFromSprinting: 1
   isCombatSkill: 1
   mustKeyPress: 0
   stepCount: 2

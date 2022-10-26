@@ -34,3 +34,7 @@ MonoBehaviour:
         stringValue: 
         objectValue: {fileID: 6244720766972569001, guid: 7168fab5696bbb849a27afee56adc320,
           type: 3}
+    - fieldName: sound
+      fieldValue:
+        stringValue: 
+        objectValue: {fileID: 11400000, guid: d90cd80c1d614ee44b480d4b66536469, type: 2}

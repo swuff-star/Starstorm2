@@ -19,11 +19,11 @@ MonoBehaviour:
   icon: {fileID: 21300000, guid: 4b9c9e5f3f617864788b66259c6a3ac5, type: 3}
   activationStateMachineName: Body
   activationState:
-    _typeName: EntityStates.Huntress.BlinkState, RoR2, Version=0.0.0.0, Culture=neutral,
+    _typeName: EntityStates.Huntress.MiniBlinkState, RoR2, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
-  interruptPriority: 3
-  baseRechargeInterval: 7
-  baseMaxStock: 1
+  interruptPriority: 2
+  baseRechargeInterval: 3
+  baseMaxStock: 3
   rechargeStock: 1
   requiredStock: 1
   stockToConsume: 1
@@ -35,4 +35,4 @@ MonoBehaviour:
   forceSprintDuringState: 1
   canceledFromSprinting: 0
   isCombatSkill: 0
-  mustKeyPress: 0
+  mustKeyPress: 1

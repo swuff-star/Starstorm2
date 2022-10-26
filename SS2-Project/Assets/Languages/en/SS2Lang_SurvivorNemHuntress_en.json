@@ -2,26 +2,35 @@
 	"strings": {
 		"SS2_NEMESIS_HUNTRESS_NAME": "Nemesis Huntress",
 		"SS2_NEMESIS_HUNTRESS_SUBTITLE": "Cunning Stalker",
-		"SS2_NEMESIS_HUNTRESS_DESC": "The Nemesis Huntress engages against enemies slowly but ruthlessly with ther deadly longbow and double headed hatchet.\n\n<color=#CCD3E0>< ! > Score headshots with Heavy Bolt to maximize damage to foes.\n\n< ! > Make use of your Laser Hatchet and Explosive Bolt to clear crowds effectively and efficiently.\n\n< ! > Blink is an effective tool to quickly relocate and score a clean shot on an enemy.\n\n< ! > It's all about skill.",
+		"SS2_NEMESIS_HUNTRESS_DESC": "The Nemesis Huntress engages against enemies slowly but ruthlessly with her deadly longbow and double headed hatchet.\n\n<color=#CCD3E0>< ! > Score headshots with Heavy Bolt to maximize damage to foes.\n\n< ! > Make use of your Laser Hatchet and Explosive Bolt to clear crowds effectively and efficiently.\n\n< ! > Phase Blink is an effective tool to quickly relocate and score a clean shot on an enemy.\n\n< ! > It's all about skill.",
 		"SS2_NEMESIS_HUNTRESS_OUTRO": "..and so she left, finding a new home far away.",
 		"SS2_NEMESIS_HUNTRESS_FAILURE": "..and so she returned, settling down at last.",
 
-		"SS2_NEMESIS_HUNTRESS_PASSIVE_NAME": "Marksman",
-		"SS2_NEMESIS_HUNTRESS_PASSIVE_DESC": "All <style=cIsDamage>Critical Strike Chance</style> is converted into <style=cIsDamage>Critical Strike Damage</style>.",
+		"SS2_NEMESIS_HUNTRESS_LORE": "It was quiet along the sulfur-permeated hillside. Even the animals that lived there were curiously quiet right now. Only the occasional sound of a caustic geyser erupting disturbed the peace.\n\n
+		Tucked away in a small cave about forty meters from the bottom of the valley, a single survivor sat crouched in anticipation, gazing through a visor. She saw the entire valley for what it truly was- countless hits, just waiting to be made. As soon as something even dared to poke their head out… Well, just the head would be the best case, truthfully.\n\n
+		Something moved. Bow unholstered, fully drawn. That target was already dead. Just needed to wait for the perfect moment…\n\n
+		…There. A single arrow whizzed through the air, hitting its target square in the back. They flailed a little bit, trying to pull it out from between their shoulders… until the arrow detonated in their body, painting the bottom of the valley a beautiful hue of rufous red.\n\n
+		The assassin chuckled to herself. It was always so cute when they panicked.",
+
+		"SS2_NEMESIS_HUNTRESS_PASSIVE_NAME": "\"UNICORN\" Skull Matrix",
+		"SS2_NEMESIS_HUNTRESS_PASSIVE_DESCRIPTION": "All <style=cIsDamage>Critical Strike Chance</style> is converted into <style=cIsDamage>Critical Strike Damage</style>. Entering combat highlights enemy <style=cIsDamage>Weak Points</style>.\n<style=cIsHealth>NAME TOO EDGY?</style>",
 
 		"SS2_NEMESIS_HUNTRESS_PRIMARY_BOW_NAME": "Heavy Bolt",
-		"SS2_NEMESIS_HUNTRESS_PRIMARY_BOW_DESC": "Hold to charge an arrow for up to <style=cIsDamage>320%</style> damage. Capable of striking <style=cIsDamage>Weak Points</style>.",
+		"SS2_NEMESIS_HUNTRESS_PRIMARY_BOW_DESC": "Hold to charge an arrow for <style=cIsDamage>50%-450%</style> damage. Capable of striking <style=cIsDamage>Weak Points</style>.\n<style=cIsHealth>DAMAGE TOO HIGH?</style>",
 
 		"SS2_NEMESIS_HUNTRESS_PRIMARY_ALT_NAME": "Packed Bolt",
-		"SS2_NEMESIS_HUNTRESS_PRIMARY_ALT_DESC": "<style=cIsHealth>WIP.</style> Hold to charge up to <style=cIsDamage>7</style> arrows for <style=cIsDamage>50%</style> damage each.",
+		"SS2_NEMESIS_HUNTRESS_PRIMARY_ALT_DESC": "<style=cIsHealth>CURRENTLY NON-FUNCTIONAL.</style> Hold to charge up to <style=cIsDamage>7</style> arrows for <style=cIsDamage>50%</style> damage each.",
 
 		"SS2_NEMESIS_HUNTRESS_SECONDARY_NAME": "Laser Hatchet",
-		"SS2_NEMESIS_HUNTRESS_SECONDARY_DESC": "Throw a boomeranging hatchet that pierces enemies for <style=cIsDamage>480%</style> damage.",
+		"SS2_NEMESIS_HUNTRESS_SECONDARY_DESC": "Throw a <style=cIsDamage>boomeranging</style> hatchet that <style=cIsDamage>pierces</style> enemies for <style=cIsDamage>360%</style> damage. Deals <style=cIsDamage>20%</style> more damage every time it passes through an enemy.",
 
-		"SS2_NEMESIS_HUNTRESS_UTILITY_NAME": "Blink",
-		"SS2_NEMESIS_HUNTRESS_UTILITY_DESC": "<style=cIsUtility>Disappear</style> and <style=cIsUtility>teleport</style> forward.",
+		"SS2_NEMESIS_HUNTRESS_UTILITY_NAME": "Phase Blink",
+		"SS2_NEMESIS_HUNTRESS_UTILITY_DESC": "<style=cIsUtility>Disappear</style> and <style=cIsUtility>teleport</style> a short distance. Can store up to <style=cIsUtility>3</style> charges.\n<style=cIsHealth>TOO BLAND?</style>",
 
 		"SS2_NEMESIS_HUNTRESS_SPECIAL_NAME": "Explosive Bolt",
-		"SS2_NEMESIS_HUNTRESS_SPECIAL_DESC": "Replace your next arrow with an <style=cIsDamage>explosive bolt</style>, detonating on impact for <style=cIsDamage>800%</style> damage."
+		"SS2_NEMESIS_HUNTRESS_SPECIAL_DESC": "Replace your next arrow with an <style=cIsDamage>explosive bolt</style>, detonating on impact for <style=cIsDamage>800%</style> damage.\n<style=cIsHealth>NOT SATISFYING ENOUGH?</style>",
+
+		"SS2_NEMESIS_HUNTRESS_EXPLOSIVE_BOW_NAME": "Explosive Bolt",
+		"SS2_NEMESIS_HUNTRESS_EXPLOSIVE_BOW_DESC": "Hold to charge an <style=cIsDamage>explosive</style> bolt, detonating on impact for <style=cIsDamage>800%</style> damage."
 	}
 }

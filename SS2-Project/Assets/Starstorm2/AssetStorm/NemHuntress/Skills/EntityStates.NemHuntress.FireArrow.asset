@@ -27,7 +27,7 @@ MonoBehaviour:
         objectValue: {fileID: 0}
     - fieldName: maxDamageCoefficient
       fieldValue:
-        stringValue: 3.2
+        stringValue: 4.2
         objectValue: {fileID: 0}
     - fieldName: minDamageCoefficient
       fieldValue:
@@ -55,7 +55,7 @@ MonoBehaviour:
         objectValue: {fileID: 0}
     - fieldName: baseDuration
       fieldValue:
-        stringValue: 0.4
+        stringValue: 0.1
         objectValue: {fileID: 0}
     - fieldName: projectilePrefab
       fieldValue:
@@ -64,5 +64,5 @@ MonoBehaviour:
           type: 3}
     - fieldName: minDamageCoeffficient
       fieldValue:
-        stringValue: 0.8
+        stringValue: 0.5
         objectValue: {fileID: 0}

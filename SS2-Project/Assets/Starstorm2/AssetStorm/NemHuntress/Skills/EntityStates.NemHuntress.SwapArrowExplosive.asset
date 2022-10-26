@@ -55,7 +55,7 @@ MonoBehaviour:
         objectValue: {fileID: 0}
     - fieldName: baseDuration
       fieldValue:
-        stringValue: 0.4
+        stringValue: 0.1
         objectValue: {fileID: 0}
     - fieldName: projectilePrefab
       fieldValue:

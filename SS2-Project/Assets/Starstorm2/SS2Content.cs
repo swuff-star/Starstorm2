@@ -91,6 +91,8 @@ namespace Moonstorm.Starstorm2
             public static ItemDef X4;
 
             public static ItemDef NemesisBossHelper;
+
+            public static ItemDef NemTressConvertCritChanceToDamage;
         }
 
         public static class Equipments

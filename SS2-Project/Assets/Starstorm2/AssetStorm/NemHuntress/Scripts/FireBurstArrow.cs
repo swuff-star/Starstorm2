@@ -37,7 +37,7 @@ namespace EntityStates.NemHuntress
             damageCoefficient = Util.Remap(charge, 0f, 1f, minDamageCoeffficient, maxDamageCoefficient);
             recoil = Util.Remap(charge, 0f, 1f, minRecoil, maxRecoil);
             projectileSpeed = Util.Remap(charge, 0f, 1f, minProjectileSpeed, maxProjectileSpeed);
-            fireDuration = 0.1f * duration;
+            fireDuration = 0.4f * duration;
 
             string fireAnim = charge > 0.6f ? "Secondary3(Strong)" : "Secondary3(Weak)";
 
