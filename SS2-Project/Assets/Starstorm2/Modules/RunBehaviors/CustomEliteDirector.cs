@@ -261,9 +261,9 @@ namespace SS2.Components
                 }
             }
 
-            if (Run.instance.stageClearCount > 8 && !empyreanActive)
+            if (Run.instance.stageClearCount > 5 && !empyreanActive)
             {
-                if (empyreanEliteCost <= eliteCredit && (baseCost * empyreanMultiplier <= fastCombatDirector.monsterCredit) || (baseCost * empyreanMultiplier <= slowCombatDirector.monsterCredit))
+                if (/*empyreanEliteCost <= eliteCredit &&*/ (baseCost * empyreanMultiplier <= fastCombatDirector.monsterCredit) || (baseCost * empyreanMultiplier <= slowCombatDirector.monsterCredit))
                 {
                     MakeEmpyrean(cb);
                     fastCombatDirector.monsterCredit -= baseCost * empyreanMultiplier * 1.5f;

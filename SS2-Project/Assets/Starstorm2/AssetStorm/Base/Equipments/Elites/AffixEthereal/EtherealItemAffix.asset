@@ -14,12 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deprecatedTier: 5
   _itemTierDef: {fileID: 0}
-  nameToken: 
-  pickupToken: 
-  descriptionToken: 
-  loreToken: 
+  nameToken: SS2_EQUIP_AFFIXETHEREAL_NAME
+  pickupToken: SS2_EQUIP_AFFIXETHEREAL_PICKUP
+  descriptionToken: SS2_EQUIP_AFFIXETHEREAL_DESC
+  loreToken: SS2_EQUIP_AFFIXETHEREAL_LORE
   unlockableDef: {fileID: 0}
-  pickupModelPrefab: {fileID: 0}
+  pickupModelPrefab: {fileID: 8477724197663278652, guid: d8957d399b254fa4cbc1646e1c10809b,
+    type: 3}
   pickupIconSprite: {fileID: 0}
   hidden: 1
   canRemove: 1

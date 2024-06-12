@@ -149,11 +149,14 @@ namespace SS2.Equipments
                     temporaryOverlay.duration = timerDur;
 
                     temporaryOverlay.animateShaderAlpha = true;
-                    temporaryOverlay.alphaCurve = AnimationCurve.EaseInOut(0f, 0f, timerDur, 1f);
+                    temporaryOverlay.alphaCurve = AnimationCurve.EaseInOut(0f, 1f, timerDur, 0f);
                     temporaryOverlay.originalMaterial = SS2Assets.LoadAsset<Material>("matHakaiOverlay", SS2Bundle.Equipments);
                     temporaryOverlay.AddToCharacerModel(modelTransform.GetComponent<CharacterModel>());
                 }
 
+                //YOU WIN!!!!! YOU WIN!!!! I GIVE UP!!!!
+                //idk why this doesn't work on some mobs
+                /*
                 GameObject charModel = CharacterBody.modelLocator.modelTransform.gameObject;
                 if (charModel != null)
                 {
@@ -177,7 +180,7 @@ namespace SS2.Equipments
                             }
                         }
                     }
-                }
+                }*/
             }
 
             private GameObject AddParticles(Renderer modelRenderer, Transform targetParentTransform, float duration)

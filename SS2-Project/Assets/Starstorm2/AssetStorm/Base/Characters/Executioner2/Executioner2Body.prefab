@@ -2258,83 +2258,137 @@ MonoBehaviour:
   m_Root: {fileID: 1480604342764416274}
   m_UpdateRate: 120
   m_UpdateMode: 1
-  m_Damping: 0.3
+  m_Damping: 0.608
   m_DampingDistrib:
     serializedVersion: 2
-    m_Curve: []
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  m_Elasticity: 0.1
+  m_Elasticity: 0.475
   m_ElasticityDistrib:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0.3
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 136
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
       weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
+      inWeight: 0
+      outWeight: 0
     - serializedVersion: 3
       time: 1
-      value: 0.09829712
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 136
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
       weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
+      inWeight: 0
+      outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  m_Stiffness: 0.8
+  m_Stiffness: 0.642
   m_StiffnessDistrib:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0.8
-      inSlope: -0.03587862
-      outSlope: -0.03587862
+      value: 1
+      inSlope: 0
+      outSlope: 0
       tangentMode: 0
       weightedMode: 0
       inWeight: 0
-      outWeight: 0.06573541
+      outWeight: 0
     - serializedVersion: 3
-      time: 0.37569886
-      value: 0.7991455
-      inSlope: 0.034182172
-      outSlope: 0.034182172
+      time: 0.23039554
+      value: 0.98247534
+      inSlope: -0.3238348
+      outSlope: -0.3238348
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.3333333
-      outWeight: 0.20837937
+      inWeight: 0.38463682
+      outWeight: 0.33333334
     - serializedVersion: 3
       time: 1
-      value: 0.15
-      inSlope: -0
-      outSlope: -0
+      value: 0
+      inSlope: 0
+      outSlope: 0
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.17055239
+      inWeight: 0
       outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
+    m_PreInfinity: 3
+    m_PostInfinity: 3
     m_RotationOrder: 4
   m_Inert: 0
   m_InertDistrib:
     serializedVersion: 2
-    m_Curve: []
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  m_Radius: 0
+  m_Radius: 0.1
   m_RadiusDistrib:
     serializedVersion: 2
-    m_Curve: []
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
@@ -2350,8 +2404,8 @@ MonoBehaviour:
   - {fileID: 7457448213129368435}
   m_Exclusions:
   - {fileID: 7573341162725836530}
-  - {fileID: 2853239514524949799}
   - {fileID: 2131836111943840306}
+  - {fileID: 2853239514524949799}
   - {fileID: 1064646309234483909}
   m_FreezeAxis: 0
   m_DistantDisable: 0
@@ -2372,6 +2426,7 @@ MonoBehaviour:
   body: {fileID: 9011166777397608919}
   itemDisplayRuleSet: {fileID: 11400000, guid: 16721932014596a45b8b5ee6dd13bb12, type: 2}
   autoPopulateLightInfos: 0
+  gameObjectActivationTransforms: []
   baseRendererInfos:
   - renderer: {fileID: 7890932552577666186}
     defaultMaterial: {fileID: 2100000, guid: 85618f8373ef3444cbd2931fd01d2fa8, type: 2}
