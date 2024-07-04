@@ -356,6 +356,7 @@ namespace SS2
 
             public static ItemDef RainbowRoot;
 
+            public static ItemDef UltraItemAffix;
         }
 
         public static class Equipments
@@ -522,6 +523,8 @@ namespace SS2
             public static BuffDef bdPoisonBuildup;
 
             public static BuffDef bdEthereal;
+
+            public static BuffDef bdUltra;
 
         }
 
