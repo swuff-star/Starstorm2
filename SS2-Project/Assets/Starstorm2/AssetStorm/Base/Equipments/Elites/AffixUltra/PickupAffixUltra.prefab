@@ -58,7 +58,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0ca56ecc52171ea48b32cb2bf5f6fffe, type: 2}
+  - {fileID: 2100000, guid: 7718a9297175c544997b86253c8a0a09, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -137,7 +137,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0ca56ecc52171ea48b32cb2bf5f6fffe, type: 2}
+  - {fileID: 2100000, guid: 7718a9297175c544997b86253c8a0a09, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -168,7 +168,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8479645323661903176}
   m_Layer: 0
-  m_Name: PickupAffixEmpyrean
+  m_Name: PickupAffixUltra
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -250,7 +250,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0ca56ecc52171ea48b32cb2bf5f6fffe, type: 2}
+  - {fileID: 2100000, guid: 7718a9297175c544997b86253c8a0a09, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -329,7 +329,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0ca56ecc52171ea48b32cb2bf5f6fffe, type: 2}
+  - {fileID: 2100000, guid: 7718a9297175c544997b86253c8a0a09, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
