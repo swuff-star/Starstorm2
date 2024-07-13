@@ -51,6 +51,7 @@ namespace SS2.Survivors
             CreatePod();
 
             characterBody.preferredPodPrefab = nemesisPodPrefab;
+            //SS2Content.Survivors.NemMerc.bodyPrefab.GetComponent<CharacterBody>().preferredPodPrefab = nemesisPodPrefab;
         }
 
         private void TakeDamageGouge(On.RoR2.HealthComponent.orig_TakeDamage orig, HealthComponent self, DamageInfo damageInfo)

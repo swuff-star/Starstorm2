@@ -22,6 +22,6 @@ MonoBehaviour:
   descriptionToken: SS2_DUT_DESCRIPTION
   outroFlavorToken: SS2_DUT_OUTRO_FLAVOR
   mainEndingEscapeFailureFlavorToken: SS2_DUT_OUTRO_FAILURE
-  primaryColor: {r: 0.4523407, g: 0.8962264, b: 0.77126, a: 1}
+  primaryColor: {r: 0.60938054, g: 0.7735849, b: 0.72749245, a: 1}
   desiredSortPosition: 11.07
   hidden: 0
