@@ -5,14 +5,12 @@ using UnityEngine.AddressableAssets;
 using SS2;
 using SS2.Components;
 using UnityEngine.Networking;
-using R2API;
 
 namespace EntityStates.DUT
 {
-    public class ChargeDischarge : BaseSkillState
+    public class ChargeDamage : BaseSkillState
     {
         public static float baseDuration = 0.8f;
-        private float duration;
 
         public static float chargeRadius = 13f;
         public static float chargeDmgCoefficient = 0.8f;
@@ -31,13 +29,10 @@ namespace EntityStates.DUT
         {
             base.OnEnter();
             controller = characterBody.GetComponent<DUTController>();
-            duration = baseDuration / attackSpeedStat;
-
             if (controller == null)
+            {
                 SS2Log.Error("Failed to find DU-T controller on body " + characterBody);
-
-            else
-                Charge();
+            }
         }
         public override void FixedUpdate()
         {
@@ -45,7 +40,7 @@ namespace EntityStates.DUT
 
             if (isAuthority)
             {
-                if (!IsKeyDownAuthority() && fixedAge >= duration)
+                if (!IsKeyDownAuthority() && fixedAge >= baseDuration)
                 {
                     Discharge();
                     outer.SetNextStateToMain();
@@ -54,7 +49,7 @@ namespace EntityStates.DUT
             }
 
             timer += Time.fixedDeltaTime;
-            if (timer >= duration)
+            if (timer >= baseDuration)
             {
                 timer = 0f;
                 Charge();
@@ -63,11 +58,8 @@ namespace EntityStates.DUT
 
         public void Charge()
         {
-            duration = baseDuration / attackSpeedStat;
-            //check this every time so it works if you receive / lose buffs each check.......
-
             //AHHHHHHHHHHHHHHHHHH
-            switch (controller.currentChargeType)
+            switch(controller.currentChargeType)
             {
                 case DUTController.ChargeType.Damage:
                 {
@@ -96,9 +88,9 @@ namespace EntityStates.DUT
                     crit = RollCrit(),
                     baseDamage = characterBody.damage * chargeDmgCoefficient,
                     falloffModel = BlastAttack.FalloffModel.None,
-                    attackerFiltering = AttackerFiltering.NeverHitSelf
+                    attackerFiltering = AttackerFiltering.NeverHitSelf,
+                    //damageType = DamageType. (add custom du-t damage type here pls)
                 };
-                DamageAPI.AddModdedDamageType(blast, SS2.Survivors.DUT.DUTDamageType);
                 blast.Fire();
             }
         }
@@ -152,8 +144,6 @@ namespace EntityStates.DUT
                 //hitEffectPrefab = hitPrefab
             };
             bullet.Fire();
-
-            skillLocator.primary.DeductStock(1);
 
             //also needs to scale...
             AddRecoil(-0.4f * baseRecoil, -0.8f * baseRecoil, -0.3f * baseRecoil, 0.3f * baseRecoil);

@@ -537,8 +537,6 @@ namespace SS2
             public static EliteDef edEmpyrean;
 
             public static EliteDef edEthereal;
-
-            public static EliteDef edUltra;
         }
         public static class Scenes
         {
@@ -554,9 +552,7 @@ namespace SS2
 
             public static SurvivorDef survivorNemCaptain;
 
-            public static SurvivorDef survivorKnight;
-
-            public static SurvivorDef survivorDUT;
+            public static SurvivorDef survivorKnight; 
 
             public static SurvivorDef NemMerc;
         }
