@@ -550,7 +550,7 @@ MonoBehaviour:
   hideCrosshair: 0
   aimOriginTransform: {fileID: 6298387738238932214}
   hullClassification: 0
-  portraitIcon: {fileID: 2800000, guid: 55533fe4f0e0c45488359c979f0ead19, type: 3}
+  portraitIcon: {fileID: 2800000, guid: 3c2ec39cb0d04a54da43d3139b469c46, type: 3}
   bodyColor: {r: 0.6117647, g: 0.7764706, b: 0.7294118, a: 1}
   isChampion: 0
   currentVehicle: {fileID: 0}

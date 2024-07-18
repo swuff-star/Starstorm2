@@ -14,7 +14,7 @@ namespace SS2.Orbs
         private const float speed = 65f;
         private static GameObject _orbEffect = SS2Assets.LoadAsset<GameObject>("DUTOrbEffect", SS2Bundle.Indev);
 
-        [AsyncAssetLoad]
+        /*[AsyncAssetLoad]
         private static IEnumerator LoadAssets()
         {
             var request = SS2Assets.LoadAssetAsync<GameObject>("DUTOrbEffect", SS2Bundle.Indev);
@@ -24,7 +24,7 @@ namespace SS2.Orbs
                 yield return null;
 
             _orbEffect = request.Asset;
-        }
+        }*/
 
         public override void Begin()
         {
