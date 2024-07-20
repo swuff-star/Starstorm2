@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: sfDUT4
   m_EditorClassIdentifier: 
   variants:
-  - skillDef: {fileID: 11400000, guid: c0cdac36775cb424f9ecc685a1515904, type: 2}
+  - skillDef: {fileID: 11400000, guid: 98f6f58a800563e4fa1c5aa1526078c0, type: 2}
     unlockableName: 
     unlockableDef: {fileID: 0}
   defaultVariantIndex: 0
